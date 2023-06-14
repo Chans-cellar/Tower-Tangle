@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /*background-color: black;*/
+    font-family: Consolas,Serif;
+    overflow: hidden;
+}
+
+
+#results{
+    background-color: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    display: none;
+}
+
+#resultTxt{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+}
+#results p{
+    font-size: 18px;
+    font-family: Consolas, serif ;
+    color: white;
+}
+#canvas{
+    align-items: center;
+    justify-content: center;
+}
+
+#showcases{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    top: 40%;
+    padding: 0 10%;
+
+}
+#scoreTxt{
+    font-size: 120px;
+    margin-right:5% ;
+}
+#canvas{
+    z-index: 1;
+}
