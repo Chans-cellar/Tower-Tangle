@@ -19,7 +19,6 @@ let gameEnded = true
 // const canvas = document.querySelector("#app");
 const canvas = document.querySelector("#canvas");
 const scoreText = document.querySelector('#scoreTxt');
-const showables = document.querySelector('#showables');
 const results = document.querySelector('#results');
 scoreText.style.color = color
 
