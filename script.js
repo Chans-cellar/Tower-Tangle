@@ -214,6 +214,7 @@ function cutBox(topLayer, overlapSize, size, distOffset) {
 //     instructions.style.display = 'block';
 // })
 
+window.addEventListener('touchstart', playTrigger);
 window.addEventListener("mousedown", playTrigger);
 window.addEventListener("keydown", function (event) {
     if ((event.key === "R" || event.key === "r") && gameEnded) {

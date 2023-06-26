@@ -5,7 +5,7 @@
 }
 body{
     /*background-color: black;*/
-    font-family: Consolas,Serif;
+    font-family: 'Inconsolata', monospace;
     overflow: hidden;
 }
 
@@ -31,7 +31,7 @@ body{
 }
 #results p{
     font-size: 18px;
-    font-family: Consolas, serif ;
+    font-family: 'Inconsolata', monospace;
     color: white;
 }
 #canvas{
@@ -53,7 +53,7 @@ body{
 
 }
 #scoreTxt{
-    font-size: 120px;
+    font-size: 8.8vw;
     margin-right:5% ;
 }
 #canvas{
